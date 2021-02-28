@@ -1,0 +1,31 @@
+
+.experienceBar {
+  display: flex;
+  align-items: center;
+}
+
+.experienceBar > spam {
+  font-size: 1rem;
+}
+
+.experienceBar > div {
+  flex: 1;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--gray-line);
+  margin: 0 2.5rem;
+  position: relative;
+}
+
+.experienceBar > div > div {
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--green);
+}
+
+.experienceBar > div span.currentExperience {
+  position: absolute;
+  top: 12px;
+  transform: translateX(-50%);
+  /* o transform de cima, faz com que o span mova-se 50% para trás, da sua ancora. Ancora = onde começa o span */
+}
