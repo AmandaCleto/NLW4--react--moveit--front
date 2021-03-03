@@ -50,6 +50,8 @@
 
   font-size: 1.25rem;
   font-weight: 600;
+
+  outline: none;
 }
 
 .countdownButton:not(:disabled):hover {
