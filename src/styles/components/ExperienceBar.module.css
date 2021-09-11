@@ -2,7 +2,7 @@
 .experienceBar {
   display: flex;
   align-items: center;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .experienceBar > spam {

@@ -1,7 +1,7 @@
 
 /* cada 1 rem equivale ao tamanho do font size do corpo da aplicacao - 16px */
 .container {
-  height: 100vh;
+  height: 100%;
   max-width: 992px;
   margin: 0 auto;
   padding: 2.5rem 2rem;

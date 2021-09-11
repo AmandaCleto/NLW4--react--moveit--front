@@ -15,7 +15,7 @@
   background: var(--white);
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
-  font-size: 8.5rem;
+  font-size: 6rem;
   text-align: center;
 }
 .countdownContainer > div span {
@@ -43,6 +43,7 @@
   justify-content: center;
 
   border: 0;
+  border-radius: 0.5rem;
   border-right: 5px;
 
   background: var(--blue);
