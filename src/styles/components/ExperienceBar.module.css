@@ -29,4 +29,11 @@
   top: 12px;
   transform: translateX(-50%);
   /* o transform de cima, faz com que o span mova-se 50% para trás, da sua ancora. Ancora = onde começa o span */
+
+  background-color: var(--gray-line);
+  color: var(--white);
+  font-weight: 600;
+  padding: 4px 8px;
+  width: fit-content;
+  border-radius: 4px;
 }

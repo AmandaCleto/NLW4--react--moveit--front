@@ -13,7 +13,7 @@
   justify-content: space-evenly;
 
   background: var(--white);
-  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 9px rgba(104, 104, 104, 0.2);
   border-radius: 5px;
   font-size: 6rem;
   text-align: center;
@@ -22,10 +22,10 @@
   flex: 1;
 }
 .countdownContainer > div span:first-child {
-  border-right: 1px solid #f0f1f3;
+  border-right: 1px solid var(--gray-line);
 }
 .countdownContainer > div span:last-child {
-  border-left: 1px solid #f0f1f3;
+  border-left: 1px solid var(--gray-line);
 }
 .countdownContainer > span {
   font-size: 6.25rem;
@@ -47,6 +47,7 @@
   border-right: 5px;
 
   background: var(--blue);
+	box-shadow: 0 1px 9px rgba(104, 104, 104, 0.2);
   color: var(--white);
 
   font-size: 1.25rem;
